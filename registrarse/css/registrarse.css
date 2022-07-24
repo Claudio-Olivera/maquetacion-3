@@ -1,0 +1,163 @@
+/* FUENTES */
+@font-face{
+    font-family: "TrebuchetMs";
+    src:url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "BebasNeue";
+    src:url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"WebSymbolsRegular";
+    src:url("fonts/websymbols-regular-webfont.eot");
+    src:url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/websymbols-regular-webfont.woff") format("woff"),
+    url("fonts/websymbols-regular-webfont.ttf") format("truetype"),
+    url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+    
+    font-weight: normal;
+    font-style: normal;
+}
+/* GENERALES */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body__background{
+    background: url("/registrarse/css/descuentos\ 30off.jpg");
+    background-repeat: no-repeat;
+    background-position-x:50%;
+    background-position-y:90% ;
+    width: 100%;
+    height: 1150px;
+    
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+  
+}
+
+
+
+.header{
+    width:100%;
+    height: 70px;
+    background-color: rgb(21, 18, 34);
+    font-family: "BebasNeue";
+    color:white;
+}
+
+.wrap__logo{
+    display: block;
+    float: left;
+    width:200px;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms; 
+    
+    
+}
+
+.wrap__logo-h2{
+    
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "BebasNeue";
+    color:rgb(255, 32, 32);
+    clear: both;
+}
+.wrap__logo-h2-secundario{
+    display: block;
+    float: right;
+    font-size: 70px;
+    margin-right: 10px;
+    font-family: "BebasNeue";
+    margin-top: 10px;
+    margin-right: 40px;
+    color:White;
+    text-shadow: 2px 3px 5px black;
+}
+
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.wrap__menu{
+    float: right;
+    height: 70px;
+    background-color: transparent;
+}
+
+.wrap__menu-li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+.wrap__menu-a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 150ms;
+}
+
+.wrap__menu-a:hover{
+    color: #c81a1b;
+    transform: scale(1.7, 2.0);
+}
+
+.wrap__menu-fixed {
+	position: fixed;
+	background-color: rgb(21, 18, 34);
+    margin-left: 40%;
+    width: 50%;
+	z-index: 1000;
+}
+
+.form{
+    display: block;
+    float:right;
+    margin-top: 30px;
+    margin-right: 2px;
+}
+
+.form__p{
+    
+    width: 570px;
+    height: 100px;
+    background-color: #c81a1b;
+    font-family: "Bebasneue";
+    color:white;
+    font-size: 30px;
+}
+
+.form__type{
+    font-family: "TrebuchetMS";
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+}
