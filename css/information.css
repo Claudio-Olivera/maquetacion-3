@@ -30,14 +30,8 @@
     padding: 0px;
 }
 
-.body__background{
-    background: url("/registrarse/css/descuentos\ 30off.jpg");
-    background-repeat: no-repeat;
-    background-position-x:50%;
-    background-position-y:90% ;
-    width: 100%;
-    height: 1150px;
-    
+.body{
+    background: url("/img/pexels-karolina-grabowska-4210863.jpg");
 }
 
 .wrap{
@@ -57,46 +51,36 @@
 }
 
 .wrap__logo{
-    display: block;
     float: left;
     width:200px;
-    height: 200px;
-    background-color: black;
+    background-color: #9b37f9;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 90px;
-    letter-spacing: 2px;
+    margin-top: 8px;
+    margin-left: 20px;
+    letter-spacing: 1px;
     cursor: pointer;
     overflow: hidden;
-    transition: all 300ms; 
-    
-    
+    transition: all 300ms;
 }
 
 .wrap__logo-h2{
-    
-    display: inline-block;
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-family: "BebasNeue";
-    color:rgb(255, 32, 32);
-    clear: both;
-}
-.wrap__logo-h2-secundario{
     display: block;
     float: right;
-    font-size: 70px;
-    margin-right: 10px;
-    font-family: "BebasNeue";
-    margin-top: 10px;
-    margin-right: 40px;
-    color:White;
-    text-shadow: 2px 3px 5px black;
+    font-size: 60px;
+    margin-top: 3px;
+    margin-left:0px;
+    transition: all 300ms;
+    
 }
 
-
+.wrap__logo-gear{
+    font-family: "WebSymbolsRegular";
+    display: block;
+    float: left;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 26px;
+}
 
 .clearfix{
     float: none;
@@ -125,39 +109,61 @@
 }
 
 .wrap__menu-a:hover{
-    color: #c81a1b;
+    color: #e237f9;
     transform: scale(1.7, 2.0);
 }
 
-.wrap__menu-fixed {
-	position: fixed;
-	background-color: rgb(21, 18, 34);
-    margin-left: 40%;
-    width: 50%;
-	z-index: 1000;
-}
+/* BANNER */
 
-.form{
-    display: block;
-    float:right;
-    margin-top: 30px;
-    margin-right: 2px;
-}
-
-.form__p{
+.banner{
+    width: 90%;
+    height: 1700px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background: url(/css/pexels-ben-mack-6775241.jpg);
+    background-position: auto;
+    margin:10px auto;
     
-    width: 570px;
-    height: 100px;
-    background-color: #c81a1b;
-    font-family: "Bebasneue";
-    color:white;
-    font-size: 30px;
+    }
+    
+    .banner__h1{
+        display:block;
+        width: 1000px;
+        font-family:"BebasNeue";
+        color:#e237f9;
+        font-size: 100px;
+        font-weight: normal;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px rgb(5, 1, 29);
+        margin:90px auto;
+        margin-right: 450px;
+        text-align: center;
+    }
+
+    .banner__p{
+        width: 50%;
+        margin: 0px auto;
+        font-family: "TrebuchetMS";
+        content: '\S'; white-space: pre-;
+        font-size: 20px;
+    }
+
+    .banner__h2{
+        font-family: "BebasNeue";
+        text-align: center;
+        margin-top:20px;
+        color: #9b37f9;
+        font-size: 200%;
+    }
+    
+.banner__a{
+    display: block;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 50px;
+    color: #9b37f9;
 }
 
-.form__type{
-    font-family: "TrebuchetMS";
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    color: black;
+.banner__a:hover{
+  color: rgb(119, 195, 4);
 }
